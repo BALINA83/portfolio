@@ -62,7 +62,7 @@ document.querySelector('#app').innerHTML = `
     GitHub
   </a>
 
-  <a href="/cv.pdf" target="_blank" class="btn btn-secondary" id="btn-cv">
+  <a href="./cv.pdf" target="_blank" class="btn btn-secondary" id="btn-cv">
     Download CV
   </a>
 </div>      
@@ -184,7 +184,7 @@ document.querySelector('#app').innerHTML = `
 
       <a
        id="front-credential"
-  href="/certificates/frontend-basic.pdf"
+ href="./certificates/frontend-basic.pdf"
   target="_blank"
   class="certificate-btn"
 >
@@ -206,7 +206,7 @@ document.querySelector('#app').innerHTML = `
 
      <a
     id="prompt-credential"
-  href="/certificates/prompt-engineering.pdf"
+  href="./certificates/prompt-engineering.pdf"
   target="_blank"
   class="certificate-btn"
 >
