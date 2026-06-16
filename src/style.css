@@ -664,6 +664,11 @@ section h3 {
   grid-template-columns: repeat(4, 1fr);
   gap: 18px;
 }
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
 
 .skill-card {
   padding: 24px;
@@ -693,11 +698,7 @@ section h3 {
      letter-spacing: 0.5px;
 }
 
-@media (max-width: 900px) {
-  .skills-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+
 
 @media (max-width: 520px) {
   .skills-grid {
@@ -714,13 +715,24 @@ section h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.skills-grid {
-  grid-template-columns: repeat(2, minmax(260px, 1fr));
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .certificates-grid {
+    grid-template-columns: 1fr !important;
+  }
 }
 
 .skill-card {
   min-width: 0;
-  white-space: nowrap;
+ 
+}
+@media (max-width: 768px) {
+  .skill-card {
+    white-space: normal;
+  }
 }
 .stats-grid {
   display: grid;
@@ -786,16 +798,7 @@ section h3 {
     0 0 50px rgba(168,85,247,0.25);
 }
 
-@media (max-width: 900px) {
-  .stats-grid {
-    grid-template-columns: 1fr;
-  }
-}
-.certificates-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-}
+
 
 .certificate-card {
   padding: 30px;
@@ -967,5 +970,4 @@ section h3 {
     0 0 15px rgba(96,165,250,0.4),
     0 0 30px rgba(168,85,247,0.3);
 }
-
 
