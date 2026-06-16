@@ -8,6 +8,14 @@ import promptCertificate from './assets/prompt-certificate.png';
 import githubIcon from './assets/github.svg';
 import linkedinIcon from './assets/linkedin.svg';
 import emailIcon from './assets/email.svg';
+import htmlIcon from './assets/html.svg';
+import cssIcon from './assets/css3.svg';
+import scssIcon from './assets/scss.svg';
+import jsIcon from './assets/javascript.svg';
+import gitIcon from './assets/git.svg';
+
+import viteIcon from './assets/vite.svg';
+import responsiveIcon from './assets/responsive.svg';
 document.querySelector('#app').innerHTML = `
   <main class="portfolio">
     <nav class="nav">
@@ -104,15 +112,43 @@ document.querySelector('#app').innerHTML = `
       <h3 id="skills-title">Skills</h3>
 
      <div class="skills-grid">
-  <div class="skill-card">🌐 <span>HTML5</span></div>
-  <div class="skill-card">🎨 <span>CSS3</span></div>
-  <div class="skill-card">💎 <span>SCSS</span></div>
-  <div class="skill-card">⚡ <span>JavaScript</span></div>
-  <div class="skill-card">📱 <span id="skill-responsive">Responsive Design</span></div>
-  <div class="skill-card">🔧 <span>Git</span></div>
-  <div class="skill-card">🐙 <span>GitHub</span></div>
-  <div class="skill-card">🚀 <span>Vite</span></div>
-</div> 
+  <div class="skill-card">
+  <img src="${htmlIcon}" alt="HTML5" class="skill-icon">
+  <span>HTML5</span>
+</div>
+ <div class="skill-card">
+  <img src="${cssIcon}" alt="CSS3" class="skill-icon">
+  <span>CSS3</span>
+</div>
+
+<div class="skill-card">
+  <img src="${scssIcon}" alt="SCSS" class="skill-icon">
+  <span>SCSS</span>
+</div>
+
+<div class="skill-card">
+  <img src="${jsIcon}" alt="JavaScript" class="skill-icon">
+  <span>JavaScript</span>
+</div>
+<div class="skill-card">
+  <img src="${responsiveIcon}" alt="Responsive UI" class="skill-icon">
+  <span id="skill-responsive">Responsive UI</span>
+</div>
+
+<div class="skill-card">
+  <img src="${gitIcon}" alt="Git" class="skill-icon">
+  <span>Git</span>
+</div>
+
+<div class="skill-card">
+ <img src="${githubIcon}" alt="GitHub" class="skill-icon">
+  <span>GitHub</span>
+</div>
+
+<div class="skill-card">
+  <img src="${viteIcon}" alt="Vite" class="skill-icon">
+  <span>Vite</span>
+</div>
     </section>
    <section class="stats">
   <div class="stats-grid">
@@ -328,7 +364,7 @@ const translations = {
     aboutTitle: 'About me',
     aboutText: 'I am a Junior Front-End Developer who completed the Front-end Basic course at Hillel IT School. I build clean, responsive and user-friendly websites using HTML, CSS, SCSS, JavaScript, Git, GitHub and Vite.',
     skillsTitle: 'Skills',
-    responsive: 'Responsive Design',
+    responsive: 'Responsive UI',
     projectsTitle: 'Projects',
     hlegalText: 'Responsive multi-page website for a law company built with HTML, SCSS, JavaScript and Vite.',
     webstudioText: 'Modern landing page for a digital agency with clean layout and responsive sections.',
