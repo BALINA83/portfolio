@@ -16,6 +16,7 @@ import gitIcon from './assets/git.svg';
 
 import viteIcon from './assets/vite.svg';
 import responsiveIcon from './assets/responsive.svg';
+import heroDeveloper from './assets/hero-developer-alina.jpg';
 document.querySelector('#app').innerHTML = `
   <main class="portfolio">
     <nav class="nav">
@@ -71,9 +72,9 @@ document.querySelector('#app').innerHTML = `
   📍 Zagreb, Croatia • Available for freelance projects
 </p>
 </div>
-      <div class="hero-photo">
-        <img src="${avatar}" alt="Alina Bezsonova" />
-      </div>
+   <div class="hero-photo">
+  <img src="${heroDeveloper}" alt="Alina Bezsonova Front-End Developer" />
+</div>   
     </header>
 
     <section class="about" id="about">
