@@ -221,10 +221,10 @@
           <span class="project-tech">HTML • SCSS • JavaScript • Vite</span>
 
           <div class="project-actions">
-            <a id="hlegal-demo" href="https://balina83.github.io/homework-1/" target="_blank">
+            <a id="hlegal-demo" href="https://balina83.github.io/hlegal-website/" target="_blank">
               Live Demo
             </a>
-            <a href="https://github.com/BALINA83/homework-1" target="_blank">
+            <a href="https://github.com/BALINA83/hlegal-website" target="_blank">
               GitHub
             </a>
           </div>
